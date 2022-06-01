@@ -1,0 +1,178 @@
+body
+{
+    width: 1920px;
+    height: 1080px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content
+{
+    display: flex;
+}
+
+.left
+{
+    width: 720px;
+    height: 1080px;
+    background-color: #0F183E;
+    border-right: 1px solid #003577;
+    display: flex;
+}
+
+p1
+{
+    margin-left: 340px;
+    color: #fff;
+    font-size: 12px;
+}
+
+p2
+{
+    margin-left: 340px;
+    color: #fff;
+    font-size: 12px;
+}
+
+ul
+{
+    margin-top: 80px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 120px;
+}
+
+.leftnav a
+{
+    text-decoration: none;
+    color: #3381E1;
+}
+
+ul > li
+{
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+.leftnav > ul > li:first-child a
+{
+    font-weight: 500;
+    color: #c2c2c2;
+    font-size: 14px;
+}
+
+
+.leftnav > ul > .account a
+{
+    color:#65FFCB;
+    border: none;
+    height: 19px;
+}
+
+p3
+{
+    color: #FF395B;
+    font-weight: 900;
+    margin-left: 340px;
+}
+
+.right
+{
+    width: 1199px;
+    height: 1080px;
+    background-color: #101B48;
+    display: flex;
+}
+
+.main
+{
+    width: 370px;
+    height:max-content;
+    padding-top: 280px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+p4
+{
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+p5
+{
+    color: #3381E1;
+    font-size:14;
+
+}
+
+.x
+{
+    width:50px;
+    height:40px;
+    background-color: #003577;
+    border-radius: 180px;
+    text-align:center;
+    color: #fff;
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+p13
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+input
+{
+    background-color: #0f183e;
+    border: none;
+    margin-top: 5px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+::-webkit-input-placeholder
+{
+    color: #003577;
+}
+
+.action
+{
+    display: flex;
+    margin-top: 100px;
+    align-items: baseline;
+}
+
+.cancel
+{
+    color: #3381e1;
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.save
+{
+    background-color: #003577;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+}
